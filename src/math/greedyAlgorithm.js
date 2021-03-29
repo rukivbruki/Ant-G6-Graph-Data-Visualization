@@ -30,6 +30,14 @@
 
 //---------------------------------------------------------//
 
+/**
+ * Жадный алгоритм вычисления количества оборудования в зависимости от общего объема
+ * поданной воды.
+ *
+ * @param {Array} changeArray
+ * @param {number} amount
+ * @returns {[]}
+ */
 export const greedyAlgorithm = (changeArray, amount) => {
   const result = [];
 
