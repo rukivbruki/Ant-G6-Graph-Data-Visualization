@@ -66,7 +66,7 @@ export const MainForm = (prop) => {
       dispatch(
         ActionCreator.setGraphData(
           calculationQuantity(formDataAdapter(values.process), values.volume),
-          values.date.locale('ru').format('LL'),
+          values.date?.locale('ru').format('LL'),
           values.input
         )
       );
